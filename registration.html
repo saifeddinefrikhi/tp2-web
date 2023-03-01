@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Regestration Enactus </title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <img src="enactus.png" alt="logo" width="100" height="100">
+        <table>
+            <tr>
+            <th class="left"><img src="image.jpg" alt="logo" width=100% height=100%> </th>
+        <th class="right">
+            <h1> Regestration Info</h1>
+            <br><br> 
+            <form>
+            <label for="fname">Name:</label><br>
+            <input type="input"  placeholder="Name" id="fname" name="fname" ><br><br>
+            <label for="bdate">Birthday:</label><br>
+            <input type="date" id="bdate" name="Date of birth"><br><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="men" name="gender" value="men">
+            <label for="gender">Men</label>
+            <input type="radio" id="women" name="gender" value="women">
+            <label for="gender">Women</label><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email"placeholder="Email" id="email" name="email"><br><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" placeholder="Password" id="pwd" name="pwd"><br><br>
+            <a> <input type="submit" value="Sign Up"> </a>
+        <br><br><br><br></th>
+            </tr>
+        </table>
+        <script> 
+     
+        var arr=[];
+        arr[0]="Un";
+        arr[1]=2;
+        arr[2]="3.14";
+        for(var i=0;i<arr.lenght;i++){
+            console.log(arr[i]);
+        }
+        arr.forEach(function(nb){
+            console.log('nb: '+ nb);
+        });
+        arr.forEach(nb=> console.log('nb: ' + nb));
+        </script>
+        
+    </body>
+</html>
